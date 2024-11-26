@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu flex</title>
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        
+        ul {
+            display: block;
+            padding: 2px;
+            margin: 10px;
+            list-style-type: none; 
+            border-radius: 15px;
+        }
+
+        li {
+            float: left;
+        }
+
+        .lista :hover {
+            color: violet;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="lista">
+        <li class="start"><button>Start</button></li>
+        <li class="elo"><button>Elo</button></li>
+        <li class="kontakt"><button>Kontakt</button></li>
+    </ul>
+</body>
+</html>
